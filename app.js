@@ -4,8 +4,6 @@ let totalEl = document.getElementById("total-el")
 let count = 0
 let total = 0
 
-console.log(saveEl)
-
 function countIn () {
     count += 1
     countEl.textContent = count
