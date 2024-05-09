@@ -19,5 +19,5 @@ function saveCt () {
 }
 
 function totalCt() {
-    totalEl.textContent = "Total: " + total
+    totalEl.textContent = "Total Number Of People: " + total
 }
