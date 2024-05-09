@@ -1,11 +1,16 @@
+let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
 
+console.log(saveEl)
+
 function countIn () {
-    count = count + 1
+    count += 1
     countEl.innerText = count
 }
 
 function saveCt () {
-    console.log("Count is Saved!")
+    let countStr = count + " - "
+    saveEl.innerText += countStr
+    console.log(count)
 }
